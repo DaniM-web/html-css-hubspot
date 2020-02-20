@@ -1,3 +1,5 @@
+/* PROPERTIES GENERALI */
+
 *{
   margin: 0;
   padding: 0;
@@ -10,26 +12,94 @@ body{
   line-height: 1.611em;
 }
 
+a:link{
+  text-decoration: none;
+}
+
 .clearfix{
   content:"";
   display: table;
   clear: both;
 }
 
+.centratura{
+  width: 50%;
+  margin: 0 25%;
+}
+
+/* PRIMA RIGA NAV */
+
+/* Primo nav parte SX */
 #topnav{
   background-color: #f5f8fa;
   width: 100%;
-  padding: 5px
+  padding: 20px 0;
+  border-bottom: 1px solid #cbd6e2;
 }
+.contacts{
+  float: left;
+  font-size: 22px;
+}
+
+li{
+  display: inline-block;
+}
+
+.contacts li{
+  padding: 0 1rem;
+}
+.contacts li:first-child{
+  border-right: 2px solid #cbd6e2;
+}
+.contacts a{
+  color: #33475b;
+}
+
 
 #mainnav{
   background-color: red;
   width: 100%;
-  padding: 5px;
+  padding: 25px 0;
 }
 
 #jumbotron{
   background-color: pink;
   width: 100%;
   min-height: 600px;
+}
+
+/* Primo nav parte DX */
+.login{
+  float: right;
+}
+.login li{
+  padding: 0 1rem;
+}
+.login li:first-child{
+  color: lightblue;
+  cursor: pointer;
+}
+a.linklogin {
+  background-color: #fff;
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 0.755em 2em;;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+a.getfreelink{
+  color: #fff;
+  background-color: #ff7a59;
+  padding: 0.755em 2em;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+a.linklogin:hover{
+  background-color: #fff1ee;
+}
+
+a.getfreelink:hover{
+  background-color: #ffbcac;
 }
