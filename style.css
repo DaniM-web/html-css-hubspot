@@ -208,8 +208,9 @@ a.jumbolink{
 .featuresrow{
   /* debug */
   background-color: white;
-  padding: 100px;
+  padding: 30px 80px;
   width: 95%;
+  height: 500px;
   margin: 80px 0 20px 2.5%;
 }
 .featurescol{
@@ -219,4 +220,11 @@ a.jumbolink{
   width: 30%;
   float: left;
   margin-left: 2.5%;
+}
+.rowsx{
+float: left;
+}
+.rowsx img{
+  width: auto;
+  height: 150px;
 }
