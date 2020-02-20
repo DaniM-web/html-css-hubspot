@@ -14,6 +14,7 @@ body{
 
 a:link{
   text-decoration: none;
+  color: #33475b;
 }
 
 .clearfix{
@@ -23,8 +24,8 @@ a:link{
 }
 
 .centratura{
-  width: 50%;
-  margin: 0 25%;
+  width: 60%;
+  margin: 0 20%;
 }
 
 /* PRIMA RIGA NAV */
@@ -39,6 +40,7 @@ a:link{
 .contacts{
   float: left;
   font-size: 22px;
+  padding: 10px 0;
 }
 
 li{
@@ -46,10 +48,13 @@ li{
 }
 
 .contacts li{
-  padding: 0 1rem;
+  padding: 0 1rem 0 0;
 }
 .contacts li:first-child{
   border-right: 2px solid #cbd6e2;
+}
+.contacts li:last-child{
+  padding-left: 1rem;
 }
 .contacts a{
   color: #33475b;
@@ -57,9 +62,9 @@ li{
 
 
 #mainnav{
-  background-color: red;
+  background-color: white;
   width: 100%;
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
 #jumbotron{
@@ -71,6 +76,7 @@ li{
 /* Primo nav parte DX */
 .login{
   float: right;
+  padding: 10px 0;
 }
 .login li{
   padding: 0 1rem;
@@ -102,4 +108,30 @@ a.linklogin:hover{
 
 a.getfreelink:hover{
   background-color: #ffbcac;
+}
+
+/* Secondo nav parte SX */
+.logo img{
+  width: 100px;
+  height: auto;
+}
+
+.logo{
+  float: left;
+  margin-top: 5px;
+}
+
+.menunav{
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.menunav li{
+  padding: 0 1rem;
+}
+.menunav i{
+  font-size: 25px;
+  opacity: .6;
+  margin-left: 8px;
 }
