@@ -165,8 +165,58 @@ a.jumbolink{
   border-radius: 3px;
   font-weight: bold;
 }
+.jumbolink:hover{
+  background-color: #ffbcac;
+}
 .jumbotext:last-child{
   max-width: 14rem;
   font-size: 14px;
   margin: 10% 0 0 0;
+  line-height: 1.2em;
+}
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+/* Prima sezione */
+.togethersec{
+  width: 100%;
+  min-height: 1500px;
+  padding: 20px 0;
+  background-color: red;
+}
+.togethergroup{
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
+.togethergroup img{
+  width: auto;
+  height: 190px;
+}
+
+.jumbotitle2{
+  font-size: 31px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.togethertext{
+  font-size: 20px;
+  max-width: 100%;
+}
+/* dopo il cubo di rubik*/
+.featuresrow{
+  /* debug */
+  background-color: white;
+  padding: 100px;
+  width: 95%;
+  margin: 80px 0 20px 2.5%;
+}
+.featurescol{
+  /* debug */
+  background-color: white;
+  padding: 50px 0;
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
 }
