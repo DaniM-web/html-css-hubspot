@@ -9,7 +9,7 @@
 body{
   color: #33475b;
   font-family: "Times New Roman",Arial,sans-serif;
-  line-height: 1.611em;
+  line-height: 2em;
 }
 
 a:link{
@@ -68,10 +68,15 @@ li{
 }
 
 #jumbotron{
-  background-color: pink;
+  background-image: url("img/jumbotron.png");
   width: 100%;
-  min-height: 600px;
+  min-height: 750px;
+  background-position: 50% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 3px black solid;
 }
+
 
 /* Primo nav parte DX */
 .login{
@@ -134,4 +139,34 @@ a.getfreelink:hover{
   font-size: 25px;
   opacity: .6;
   margin-left: 8px;
+}
+
+/* Jumbotron */
+.jumbosez{
+width: 30%;
+letter-spacing: 1px;
+padding-top: 12%;
+}
+
+.jumbotitle1{
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.jumbotext{
+  font-size: 18px;
+  margin: 10% 0;
+  font-weight: lighter;
+}
+a.jumbolink{
+  color: #fff;
+  background-color: #ff7a59;
+  padding: 1.5em 2em;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.jumbotext:last-child{
+  max-width: 14rem;
+  font-size: 14px;
+  margin: 10% 0 0 0;
 }
