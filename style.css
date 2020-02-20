@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #33475b;
+  font-family: "Times New Roman",Arial,sans-serif;
+  line-height: 1.611em;
+}
+
+.clearfix{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+#topnav{
+  background-color: #f5f8fa;
+  width: 100%;
+  padding: 5px
+}
+
+#mainnav{
+  background-color: red;
+  width: 100%;
+  padding: 5px;
+}
+
+#jumbotron{
+  background-color: pink;
+  width: 100%;
+  min-height: 600px;
+}
