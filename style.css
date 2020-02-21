@@ -151,7 +151,7 @@ padding-top: 12%;
 
 .jumbotitle1{
   font-size: 45px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .jumbotext{
@@ -169,7 +169,7 @@ a.jumbolink{
 .jumbolink:hover{
   background-color: #ffbcac;
 }
-.jumbotext:last-child{
+.jumbotextsmall{
   max-width: 14rem;
   font-size: 14px;
   margin: 10% 0 0 0;
@@ -204,6 +204,7 @@ img.rowscolicon{
 .togethertext{
   font-size: 20px;
   max-width: 100%;
+  margin-bottom: 8%;
 }
 /* dopo il cubo di rubik*/
 /* Riga grande */
@@ -216,7 +217,6 @@ img.rowscolicon{
 
 /* 3 colonne properties */
 .featurescol{
-  /* debug */
   background-color: white;
   padding: 40px 10px;
   width: 30%;
@@ -387,4 +387,70 @@ p.boldtitlep{
 
 .cellast{
   border-right: 0;
+}
+/*  SEZIONE SPONSOR INIZIO */
+
+.sponsorsec{
+  background-color: #F5F8FA;
+  width: 100%;
+  padding: 5% 0;
+}
+.sponsortext{
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+.subtext{
+  font-size: 22px;
+  padding-top: 4%;
+  letter-spacing: 1px;
+  opacity: .9
+}
+.subtext span{
+  font-weight: bold;
+}
+
+.sponsorlogos{
+  width: 70%;
+  float: left;
+  padding-left: 15%;
+}
+.sponsorlogos img{
+  width: 110px;
+  height: auto;
+}
+.logocell{
+  padding: 0 20px 20px 0;
+  float: left;
+  text-align: center;
+}
+
+.containergrow{
+  width: 100%;
+  padding: 5% 0;
+}
+
+.growingtext{
+  width: 42%;
+  float: left;
+  padding: 10% 0;
+  margin-right: 10%;
+}
+
+p.smalldescript{
+  font-size: 14px;
+  margin: 10% 0 0 0;
+  line-height: 1.2em;
+}
+
+.growigndx{
+  width: 45%;
+  float: left;
+}
+
+.growingdx img{
+  width: auto;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 5%;
 }
