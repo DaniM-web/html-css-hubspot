@@ -454,3 +454,59 @@ p.smalldescript{
   margin-left: 10%;
   margin-top: 5%;
 }
+
+/* Foooter */
+
+footer{
+  width: 100%;
+  background-color: #33475b;
+  padding: 5% 0;
+}
+.quicklink{
+  width: 100%;
+}
+
+.quicklinkcol{
+  width: 25%;
+  float: left;
+}
+
+.quicklinklist{
+  list-style-type: none;
+}
+
+.quicklinklist li{
+  padding: 2% 0;
+}
+
+.quicklinklist h5{
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.quicklinklist a{
+  color: #cbd6e2;
+  font-size: 18px;
+}
+.quicklinklist a:hover{
+  color: #7fd1de;
+}
+a.selectlink{
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+a.whitebtn{
+  text-align: center;
+  border-radius: .1875rem;
+  display: inline-block;
+  background-color: #fff;
+  color: #33475b;
+  padding: 0.5em 1.1em;
+  font-size: 15px;
+  font-weight: 500;
+  min-width: 5.888rem;
+  margin-top: 5%;
+}
