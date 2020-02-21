@@ -460,7 +460,7 @@ p.smalldescript{
 footer{
   width: 100%;
   background-color: #33475b;
-  padding: 5% 0;
+  padding: 5% 0 0 0;
 }
 .quicklink{
   width: 100%;
@@ -485,11 +485,11 @@ footer{
   font-weight: bold;
 }
 
-.quicklinklist a{
+a.footerlinklighted{
   color: #cbd6e2;
   font-size: 18px;
 }
-.quicklinklist a:hover{
+a.footerlinklighted:hover{
   color: #7fd1de;
 }
 a.selectlink{
@@ -509,4 +509,58 @@ a.whitebtn{
   font-weight: 500;
   min-width: 5.888rem;
   margin-top: 5%;
+}
+
+.socialmedia{
+  list-style-type: none;
+  list-style-position: inside;
+}
+.socialmedia li{
+  display: inline-block;
+  padding: 6% 8% 0 0;
+}
+
+.languages{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3%;
+  border-bottom: 1px solid #cbd6e2;
+}
+
+.languagelist{
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.languagelist li{
+  display: inline-block;
+  padding: 5% 3% 0 0;
+}
+
+.languagelist a{
+  font-size: 20px;
+}
+/* Parte copyright e privacy */
+.privacy{
+  width: 100%;
+  color: #cbd6e2;
+  padding: 4% 0 2% 0;
+}
+
+.copyright{
+  float: left;
+}
+.privacydx{
+  width: 40%;
+  float: right;
+}
+
+.privacylist li{
+  display: inline-block;
+  float: right;
+  padding: 0 8%;
+}
+.privacylist a{
+  font-size: 20px;
+  font-weight: bold;
 }
