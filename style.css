@@ -43,8 +43,9 @@ a:link{
   padding: 10px 0;
 }
 
-li{
+header li{
   display: inline-block;
+  list-style-type: none;
 }
 
 .contacts li{
@@ -183,14 +184,14 @@ a.jumbolink{
   width: 100%;
   min-height: 1500px;
   padding: 20px 0;
-  background-color: red;
+  background-color: #F5F8FA;
 }
 .togethergroup{
   width: 45%;
   margin: 0 auto;
   text-align: center;
 }
-.togethergroup img{
+img.rowscolicon{
   width: auto;
   height: 190px;
 }
@@ -205,26 +206,124 @@ a.jumbolink{
   max-width: 100%;
 }
 /* dopo il cubo di rubik*/
+/* Riga grande */
 .featuresrow{
-  /* debug */
   background-color: white;
-  padding: 30px 80px;
+  padding: 40px 80px;
   width: 95%;
-  height: 500px;
   margin: 80px 0 20px 2.5%;
 }
+
+/* 3 colonne properties */
 .featurescol{
   /* debug */
   background-color: white;
-  padding: 50px 0;
+  padding: 40px 10px;
   width: 30%;
   float: left;
   margin-left: 2.5%;
+  text-align: center;
 }
+
+/* Parte sinistra riga grande */
 .rowsx{
 float: left;
+width: 25%;
 }
 .rowsx img{
   width: auto;
   height: 150px;
+}
+
+.rowlistsx li{
+  text-align: center;
+  display: block;
+}
+.rowlistsx li:last-child{
+  padding: 20px 10px;
+}
+
+a.orangebtn{
+  font-weight: bold;
+  border-radius: .1875rem;
+  display: inline-block;
+  background-color: #ff7a59;
+  color: #fff;
+  padding: 0.6em 2em;
+  font-size: 1em;
+}
+a.orangebtn:hover{
+  background-color: #ffbcac;
+}
+
+/* Parte destra riga grande */
+.rowdx{
+  width: 70%;
+  float: left;
+  margin-left: 5%;
+}
+
+.featuretitle{
+  font-size: 22px;
+}
+.featuretext{
+  font-size: 16px;
+  opacity: .8;
+  padding-top: 10px;
+  line-height: 1.3em;
+}
+
+h6.popular{
+  width: 75%;
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 26px 0 15px;
+}
+
+h6.popular::after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 10px;
+    width: 100%;
+}
+
+.rowlistdx li{
+  list-style-position: inside;
+  font-size: 18px;
+  margin: 0 5% 0 0;
+  float: left;
+  list-style-image: url("img/orangecheck.png");
+}
+
+/* Colonne */
+.featurescol p{
+  width: 80%;
+  text-align: left;
+  margin: 10px 10%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e6ed;
+  line-height: 20px;
+}
+
+h6.popular2{
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 26px 0 15px;
+}
+
+.collist li{
+  padding-left: 5%;
+  list-style-position: inside;
+  font-size: 18px;
+  margin: 0 5% 2% 0;
+  list-style-image: url("img/orangecheck.png");
+  text-align: left;
+}
+.collist{
+  margin-bottom: 6%;
 }
