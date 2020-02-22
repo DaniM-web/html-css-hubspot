@@ -36,6 +36,8 @@ a:link{
   width: 100%;
   padding: 20px 0;
   border-bottom: 1px solid #cbd6e2;
+  position: fixed;
+  top: 0;
 }
 .contacts{
   float: left;
@@ -66,6 +68,7 @@ header li{
   background-color: white;
   width: 100%;
   padding: 20px 0;
+  margin-top: 100px;
 }
 
 #jumbotron{
