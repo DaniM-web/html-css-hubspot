@@ -44,6 +44,7 @@ a:link{
   float: left;
   font-size: 22px;
   padding: 10px 0;
+  position: relative;
 }
 
 header li{
@@ -51,14 +52,14 @@ header li{
   list-style-type: none;
 }
 
-.contacts li{
+.contacts > li{
   padding: 0 1rem 0 0;
 }
-.contacts li:first-child{
+.contacts > li:first-child{
   border-right: 2px solid #cbd6e2;
   cursor: pointer;
 }
-.contacts li:last-child{
+.contacts > li:last-child{
   padding-left: 1rem;
 }
 .contacts a{
@@ -138,6 +139,10 @@ a.getfreelink:hover{
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
+}
+.menunav a{
+  color: #33475b;
+  font-size: 20px;
 }
 .menunav li{
   padding: 0 1rem;
@@ -603,4 +608,111 @@ input[type="image"]{
   left: 50px;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+/* _______MENU A COMPARSA_____ */
+
+/* MENU A COMPARSA LINGUE */
+.dropdownlanguage{
+  background-color: #fff;
+  border: 1px solid #cbd6e2;
+  min-width: 50%;
+  display: none;
+  padding: 10px 20px;
+  text-align: left;
+  border-radius: .1875rem;
+  box-shadow: 0 1px 24px rgba(45,62,80,0.12);
+}
+.dropdownlanguage li{
+  display: block;
+  margin: 5px 0;
+}
+.dropdownlanguage a {
+  color: #33475b;
+  font-weight: bold;
+  font-size: 18px;
+}
+.contacts li:first-child:hover .dropdownlanguage{
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+/* MENU A COMPARSA SECONDO NAV ZONA DX */
+li.software{
+  position: relative;
+}
+
+.softdropmenu{
+  background-color: #fff;
+  border: 1px solid #cbd6e2;
+  width: 855px;
+  display: none;
+  padding: 20px;
+  text-align: left;
+  border-radius: .1875rem;
+  box-shadow: 0 1px 24px rgba(45,62,80,0.12);
+}
+
+li.software:hover .softdropmenu{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.softdropmenu p{
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.firstrow{
+  text-align: center;
+  border-bottom: 1px solid #cbd6e2;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.dropli{
+  width: 100%
+}
+
+.secondrow{
+  border-bottom: 1px solid #cbd6e2;
+  width: 100%;
+}
+.secondrow a{
+  width: 32%;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.thirdrow{
+  width: 100%;
+  padding: 2rem 2rem;
+}
+.thirdrow h5{
+  display: inline-block;
+  font-size: 22px;
+  padding: 0 5px;
+}
+span.newbtn{
+  background-color: #00bda5;
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: .1875rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.thirdrow p{
+  display: inline-block;
 }
