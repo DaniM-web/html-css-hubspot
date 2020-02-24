@@ -55,6 +55,7 @@ header li{
 }
 .contacts li:first-child{
   border-right: 2px solid #cbd6e2;
+  cursor: pointer;
 }
 .contacts li:last-child{
   padding-left: 1rem;
@@ -216,6 +217,14 @@ img.rowscolicon{
   padding: 40px 80px;
   width: 95%;
   margin: 80px 0 20px 2.5%;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 11px #eaf0f6;
+}
+
+.featuresrow:hover{
+  box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+  -webkit-transform: scale(1.014);
+  transform: scale(1.014);
 }
 
 /* 3 colonne properties */
@@ -226,6 +235,12 @@ img.rowscolicon{
   float: left;
   margin-left: 2.5%;
   text-align: center;
+  box-shadow: 0 0 11px #eaf0f6;
+}
+.featurescol:hover{
+  box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+  -webkit-transform: scale(1.014);
+  transform: scale(1.014);
 }
 
 /* Parte sinistra riga grande */
@@ -566,4 +581,24 @@ a.whitebtn{
 .privacylist a{
   font-size: 20px;
   font-weight: bold;
+}
+/* ------- Bottone fixed */
+.buttondiv{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(66, 91, 118);
+  border-radius: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 15px 15px 0;
+}
+
+input[type="image"]{
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  color: white;
 }
